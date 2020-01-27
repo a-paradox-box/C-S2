@@ -16,8 +16,8 @@ printf("celsius=%f\n",celsius);
 else{
 printf("Enter the Celsius : ");
 scanf("%f",&cel);
-faren=cel*(5.0/9.0)+32.0;
+faren=cel*(9.0/5.0)+32.0;
 printf("Farenhiet=%f\n",faren);
 }
-
+system("exit");
 }
