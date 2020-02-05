@@ -5,15 +5,15 @@ void main(){
 char name[20];
 int no,type,Intial,final,valid;
 
-printf("Enter The Consumer Number : \n");
+printf("Enter The Consumer Number : ");
 scanf("%d",&no);
-printf("Enter The Name : \n");
+printf("Enter The Name : ");
 scanf("%s",name);
-printf("Enter The Consumer Type : \n");
+printf("Enter The Consumer Type : ");
 scanf("%d",&type);
-printf("Enter The Intial Reading: \n");
+printf("Enter The Intial Reading: ");
 scanf("%d",&Intial);
-printf("Enter The Final Reading : \n");
+printf("Enter The Final Reading : a");
 scanf("%d",&final);    
 
 final=final-Intial;
@@ -42,6 +42,6 @@ printf("\t\tCONSUMER BILL \n");
 printf("Cousumer Name : %s\n",name);
 printf("Consumer Number : %d \n",no);
 printf("Consumer Type : %d \n",type);
-printf("Consumption Charge : %d",final);
+printf("Consumption Charge : %d \n",final);
 }
 }
