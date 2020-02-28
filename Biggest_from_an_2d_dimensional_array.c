@@ -18,6 +18,7 @@ for(i=0;i<r;i++)
 	for(j=0;j<c;j++)
 		if(a[i][j]>big)
 			big=a[i][j];
+
 printf("The largest number =%d",big);
 }
 
