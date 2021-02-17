@@ -1,3 +1,0 @@
-Question:
-Write a C program to read the employee name employee number and basic pay of an employee.Also,prepare the salary Bill of that employee.
-Salary is calculated as follow.DA is equal to 20 percentage of Basic pay.HR is equal to 10 percentage of Basic pay. Total salary is equal to BasicPay + DA plus HR. Deduction is equal to 5 percentage of total salary. Net salary is equal to total salary -deduction.
